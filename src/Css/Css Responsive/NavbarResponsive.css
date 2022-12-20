@@ -1,0 +1,59 @@
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .navbarContainer {
+    width: 100vw;
+  }
+
+  .navbarContainer img {
+    display: block;
+  }
+
+  .navbaLeftSideText {
+    z-index: 2;
+  }
+
+  .navbarRightSide {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(54, 48, 71, 0.42);
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    gap: 3rem;
+    backdrop-filter: blur(7px);
+    margin-left: -100%;
+    transition: all 0.2s;
+  }
+
+  .activeMenu {
+    margin-left: 0;
+  }
+
+  .navbarRightSide a {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 0;
+  }
+
+  .navbaLeftSide {
+    padding-left: 0.5rem;
+  }
+
+  .navbarRightSide {
+    padding-right: 0;
+  }
+  .burgerLogo {
+    padding-right: 0.5rem;
+    z-index: 2;
+    transition: all 0.1s;
+  }
+}

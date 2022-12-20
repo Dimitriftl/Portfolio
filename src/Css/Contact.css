@@ -1,0 +1,327 @@
+.Contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 61rem;
+  /* overflow-x: hidden; */
+}
+
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  width: 100%;
+  /* background-color: rgb(57, 45, 70); */
+}
+
+.contactTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 0;
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+.conversation {
+  background: linear-gradient(to bottom, transparent 55%, #6c61c4 50%);
+}
+
+.contactContent {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 0 3rem;
+  bottom: -7rem;
+  height: 40rem;
+  width: 100%;
+  /* background-color: bisque; */
+  font-family: "inter";
+}
+
+.mesContatcs {
+  display: flex;
+  /* width: 380px; */
+  flex-wrap: wrap;
+  width: 28%;
+  height: 270px;
+  background-color: #1b1b27;
+  border-radius: 20px;
+}
+
+.mesContactsTitre {
+  width: 100%;
+  margin-left: 1rem;
+  height: 0;
+  font-size: 26px;
+}
+
+.mesContactsTitre h3 {
+  margin: 1rem 0;
+}
+
+.Purple {
+  color: #957fef;
+}
+
+.numero {
+  font-family: "Inter", sans-serif;
+}
+
+.mesContactContent {
+  position: relative;
+  top: 1.5rem;
+  font-display: flex;
+  width: 100%;
+  margin: 2rem 1rem;
+  font-size: 22px;
+  height: 8rem;
+  /* background-color: aquamarine; */
+}
+
+.mesContactSvg {
+  display: flex;
+  position: relative;
+  bottom: 0.5rem;
+  margin: 0 1rem;
+  
+}
+
+.mesContactSvg img {
+  margin-right: 2rem;
+  width: 50px;
+  transition: all 0.3s;
+}
+
+.mesContactSvg img:hover {
+  transform: rotate(-10deg);
+}
+
+/* PARTI CONTACT  */
+
+.votreMessage {
+  display: flex;
+  justify-content: center;
+  width: 920px;
+  width: 68%;
+  height: 630px;
+  background-color: #1b1b27;
+  border-radius: 20px;
+}
+
+.votreMessage input {
+  border-radius: 10px;
+  border: 1px solid #262626;
+  padding-left: 1rem;
+  font-size: 20px;
+  outline: none;
+  background-color: #262626;
+  font-family: "inter";
+}
+
+.votreMessage input:focus {
+  border: 1px solid #957fef;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.prenomEmail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  margin: 2rem;
+  /* background-color: #6c61c4; */
+}
+
+.inputNom {
+  width: 45%;
+  height: 3.8rem;
+}
+
+.inputEmail {
+  width: 45%;
+  height: 3.8rem;
+}
+
+.sujet {
+  position: relative;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  /* background-color: pink; */
+}
+
+.inputSujet {
+  width: 100%;
+  height: 3.8rem;
+  margin: 0 2rem;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* bottom: 2rem; */
+  width: 100%;
+  height: 50%;
+  /* background-color: aquamarine; */
+}
+
+.message textarea {
+  width: 100%;
+  height: 95%;
+  margin: 0 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #262626;
+  border: none;
+  color: #fff;
+  font-family: "inter";
+}
+
+.message textarea::placeholder {
+  font-size: 20px;
+}
+
+.message textarea:focus {
+  border: 1px solid #957fef;
+}
+
+.buttonContainer {
+  position: relative;
+  top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  /* background-color: #957fef; */
+}
+
+.buttonEnvoyer {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 10rem;
+  height: 3rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #957fef;
+  color: #fff;
+  /* font-weight: bold; */
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.buttonEnvoyer:hover {
+  background-color: #6c61c4;
+}
+
+.waveFooterSvg {
+  position: relative;
+  bottom: -4.5rem;
+  overflow: hidden;
+  width: 100vw;
+  height: 14rem;
+}
+
+.waveFooterSvg svg {
+  position: relative;
+  bottom: 20rem;
+  height: 550px;
+  width: 100%;
+  z-index: -1;
+}
+
+/* Animation */
+
+
+
+.w6 {
+  animation: anim6 15s infinite forwards;
+}
+
+@keyframes anim6 {
+  0% {
+    d: path("M0 423L15 424.7C30 426.3 60 429.7 90 422.7C120 415.7 150 398.3 180 395.7C210 393 240 405 270 405.3C300 405.7 330 394.3 360 395.3C390 396.3 420 409.7 450 408C480 406.3 510 389.7 540 384.3C570 379 600 385 630 393.8C660 402.7 690 414.3 720 417.5C750 420.7 780 415.3 810 406.3C840 397.3 870 384.7 885 378.3L900 372L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  50% {
+    d: path("M0 405L15 406.7C30 408.3 60 411.7 90 416.8C120 422 150 429 180 439.2C210 449.3 240 462.7 270 460.5C300 458.3 330 440.7 360 433C390 425.3 420 427.7 450 428.3C480 429 510 428 540 429.2C570 430.3 600 433.7 630 436.8C660 440 690 443 720 446.7C750 450.3 780 454.7 810 456.3C840 458 870 457 885 456.5L900 456L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  100% {
+    d: path("M0 423L15 424.7C30 426.3 60 429.7 90 422.7C120 415.7 150 398.3 180 395.7C210 393 240 405 270 405.3C300 405.7 330 394.3 360 395.3C390 396.3 420 409.7 450 408C480 406.3 510 389.7 540 384.3C570 379 600 385 630 393.8C660 402.7 690 414.3 720 417.5C750 420.7 780 415.3 810 406.3C840 397.3 870 384.7 885 378.3L900 372L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+}
+
+
+.w7 {
+  animation: anim7 15s infinite forwards;
+}
+
+@keyframes anim7 {
+  0% {
+    d: path("M0 405L15 406.7C30 408.3 60 411.7 90 416.8C120 422 150 429 180 439.2C210 449.3 240 462.7 270 460.5C300 458.3 330 440.7 360 433C390 425.3 420 427.7 450 428.3C480 429 510 428 540 429.2C570 430.3 600 433.7 630 436.8C660 440 690 443 720 446.7C750 450.3 780 454.7 810 456.3C840 458 870 457 885 456.5L900 456L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  50% {
+    d: path("M0 486L15 488C30 490 60 494 90 492C120 490 150 482 180 475C210 468 240 462 270 467C300 472 330 488 360 492.5C390 497 420 490 450 483.8C480 477.7 510 472.3 540 468C570 463.7 600 460.3 630 464C660 467.7 690 478.3 720 481.5C750 484.7 780 480.3 810 478C840 475.7 870 475.3 885 475.2L900 475L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  100% {
+    d: path("M0 405L15 406.7C30 408.3 60 411.7 90 416.8C120 422 150 429 180 439.2C210 449.3 240 462.7 270 460.5C300 458.3 330 440.7 360 433C390 425.3 420 427.7 450 428.3C480 429 510 428 540 429.2C570 430.3 600 433.7 630 436.8C660 440 690 443 720 446.7C750 450.3 780 454.7 810 456.3C840 458 870 457 885 456.5L900 456L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+}
+
+.w8 {
+  animation: anim8 15s infinite forwards;
+}
+
+@keyframes anim8 {
+  0% {
+    d: path("M0 486L15 488C30 490 60 494 90 492C120 490 150 482 180 475C210 468 240 462 270 467C300 472 330 488 360 492.5C390 497 420 490 450 483.8C480 477.7 510 472.3 540 468C570 463.7 600 460.3 630 464C660 467.7 690 478.3 720 481.5C750 484.7 780 480.3 810 478C840 475.7 870 475.3 885 475.2L900 475L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  50% {
+    d: path("M0 484L15 486.3C30 488.7 60 493.3 90 493.7C120 494 150 490 180 494.8C210 499.7 240 513.3 270 521.5C300 529.7 330 532.3 360 531.7C390 531 420 527 450 526.7C480 526.3 510 529.7 540 525.3C570 521 600 509 630 506C660 503 690 509 720 507.3C750 505.7 780 496.3 810 497.5C840 498.7 870 510.3 885 516.2L900 522L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  100% {
+    d: path("M0 486L15 488C30 490 60 494 90 492C120 490 150 482 180 475C210 468 240 462 270 467C300 472 330 488 360 492.5C390 497 420 490 450 483.8C480 477.7 510 472.3 540 468C570 463.7 600 460.3 630 464C660 467.7 690 478.3 720 481.5C750 484.7 780 480.3 810 478C840 475.7 870 475.3 885 475.2L900 475L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+}
+
+.w9 {
+  animation: anim9 15s infinite forwards;
+}
+
+@keyframes anim9 {
+  0% {
+    d: path("M0 484L15 486.3C30 488.7 60 493.3 90 493.7C120 494 150 490 180 494.8C210 499.7 240 513.3 270 521.5C300 529.7 330 532.3 360 531.7C390 531 420 527 450 526.7C480 526.3 510 529.7 540 525.3C570 521 600 509 630 506C660 503 690 509 720 507.3C750 505.7 780 496.3 810 497.5C840 498.7 870 510.3 885 516.2L900 522L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  50% {
+    d: path("M0 541L15 540.5C30 540 60 539 90 536.5C120 534 150 530 180 533.2C210 536.3 240 546.7 270 546.3C300 546 330 535 360 535.3C390 535.7 420 547.3 450 555C480 562.7 510 566.3 540 564.2C570 562 600 554 630 552.7C660 551.3 690 556.7 720 554.8C750 553 780 544 810 537.7C840 531.3 870 527.7 885 525.8L900 524L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+
+  100% {
+    d: path("M0 484L15 486.3C30 488.7 60 493.3 90 493.7C120 494 150 490 180 494.8C210 499.7 240 513.3 270 521.5C300 529.7 330 532.3 360 531.7C390 531 420 527 450 526.7C480 526.3 510 529.7 540 525.3C570 521 600 509 630 506C660 503 690 509 720 507.3C750 505.7 780 496.3 810 497.5C840 498.7 870 510.3 885 516.2L900 522L900 601L885 601C870 601 840 601 810 601C780 601 750 601 720 601C690 601 660 601 630 601C600 601 570 601 540 601C510 601 480 601 450 601C420 601 390 601 360 601C330 601 300 601 270 601C240 601 210 601 180 601C150 601 120 601 90 601C60 601 30 601 15 601L0 601Z");
+  }
+}

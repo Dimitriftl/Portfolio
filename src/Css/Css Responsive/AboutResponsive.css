@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 500px) {
+
+  .About {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 64rem;
+    margin-bottom: 6rem;
+  }
+
+  .buttonSwicthContent {
+    display: flex;
+    margin-top: 7rem;
+    width: 290px;
+    height: 70px;
+    font-size: 20px;
+    z-index: 1;
+  }
+}

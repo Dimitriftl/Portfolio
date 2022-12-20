@@ -1,0 +1,75 @@
+
+
+@media screen and (max-width : 500px) {
+ 
+    
+    .Apropos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 58rem;
+        flex-wrap: wrap;
+      }
+
+      .Apropos h2 {
+        font-size: 36px;
+      }
+
+      .aproposContent {
+        bottom: 22rem;
+      }
+
+      .textContainer {
+        bottom: -17rem;
+        padding: 1rem;
+        font-size: 18px;
+      }
+
+      .firtsSvg {
+        top: 20rem;
+        padding-left: 0.5rem;
+      }
+
+      .secondSvg { 
+        bottom: -15rem;
+        padding-right: 5rem;
+      }
+
+      .mesReseauxSvg {
+        position: relative;
+        top: 18rem;
+      }
+}
+
+
+@media screen and (max-width:720px) { 
+    
+    .firtsSvg {
+        padding-left: 0.5rem;
+      }
+
+      .secondSvg { 
+        margin-right: 0.5rem;
+      }
+
+      .mesReseauxSvg {
+        position: relative;
+        padding-left: 2rem;
+      }
+}
+
+@media screen and (max-width : 376px) {
+
+    .aproposContent {
+        bottom: 21rem;
+      }
+
+
+      .aPropoDeMoi {
+        margin-bottom: 1rem;
+      }
+
+      .firtsSvg {
+        margin-bottom: 1rem;
+      }
+}

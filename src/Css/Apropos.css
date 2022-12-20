@@ -1,0 +1,94 @@
+.Apropos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  /* overflow-x: hidden; */
+}
+
+.Apropos h2 {
+  margin: 1rem 0 0 0;
+  font-size: 40px;
+}
+
+.aPropoDeMoi {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.propos {
+  background: linear-gradient(to bottom, transparent 55%, #6c61c4 50%);
+}
+
+.aproposContent {
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  bottom: 0rem;
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  min-height: 550px;
+  /* background-color: palevioletred; */
+}
+
+.firtsSvg {
+  position: relative;
+  top: 2rem;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  /* background-color: beige; */
+}
+
+.firtsSvg img {
+  position: relative;
+  top: 0rem;
+  width: 30px;
+}
+
+.textContainer {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 2.5rem;
+  bottom: 0.5rem;
+  min-height: 400px;
+  width: 100%;
+  line-height: 1.7rem;
+  /* background-color: pink; */
+  font-size: 20px;
+}
+
+.secondSvg {
+  display: flex;
+  position: relative;
+  bottom: 2rem;
+  width: 100%;
+  height: 40px;
+  /* background-color: beige; */
+}
+
+.secondSvg img {
+  position: absolute;
+  right: 0;
+  width: 35px;
+}
+
+.mesReseauxSvg {
+  width: 100%;
+  height: 60px;
+
+  /* background-color: rgb(211, 211, 120); */
+}
+
+.mesReseauxSvg img {
+  width: 50px;
+  margin-right: 2rem;
+  transition: all 0.3s;
+}
+
+.mesReseauxSvg img:hover {
+  transform: rotate(-10deg);
+}

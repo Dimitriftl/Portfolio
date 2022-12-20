@@ -1,0 +1,164 @@
+.MesProjets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  min-height: 61rem;
+  /* background-color: rgb(82, 82, 65); */
+}
+
+.mesProjetsSvg {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+}
+
+.mesProjetsSvg img {
+  height: 62rem;
+  width: 100%;
+}
+
+.mesProjetsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  width: 100%;
+  /* background-color: rgb(57, 45, 70); */
+}
+
+.mesProjetsTitre {
+  position: relative;
+  top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 0rem;
+  z-index: 1;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  bottom: 7rem;
+  width: 100%;
+  margin: 3rem;
+  min-height: 26rem;
+  gap: 3rem;
+
+  /* background-color: #957FEF; */
+}
+
+.mesProjetsContainer h2 {
+  font-size: 40px;
+}
+
+.projet { 
+  background: linear-gradient(to bottom, transparent 55%, 
+  #6C61C4 50%);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 34rem;
+  width: 26rem;
+  /* background-color: black; */
+}
+
+.CardTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 26px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 27rem;
+  width: 100%;
+  background-color: #1b1b27;
+  border-radius: 20px;
+  /* padding: 0.5rem; */
+}
+
+.cardBackground {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 14rem;
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer;
+}
+
+.cardBackground:hover { 
+  background-color: #6d61c4;
+  backdrop-filter: blur(7px);
+}
+
+.eyeSvg {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  top: 5rem;
+  width: 50px;
+}
+
+.backgroundImage {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease 0.2s;
+}
+
+.backgroundImage:hover + .eyeSvg{ 
+  opacity: 100%;
+}
+
+.backgroundImage:hover {
+  z-index: 1;
+  opacity: 0.2;
+}
+
+
+
+.cardBottom {
+  /* background-color: #957FEF; */
+  width: 100%;
+  height: 40%;
+  margin: 0.5rem;
+  font-size: 15px;
+}
+
+.pastilleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  /* background-color: black; */
+  gap: 1rem;
+}
+
+.pastille {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  width: 4rem;
+  border-radius: 20px;
+  background-color: #45449a;
+  margin-left: 0.5rem;
+}
+
+.cardBottomText {
+  width: 90%;
+  margin-left: 0.5rem;
+}

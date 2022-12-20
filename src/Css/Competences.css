@@ -1,0 +1,112 @@
+.Competence {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    transition: all 0.5s;
+    /* overflow-x: hidden; */
+    /* background: #000; */
+}
+
+.Competence h2 { 
+    margin: 1rem 0 0 0;
+    font-size: 38px;
+}
+
+
+.mesCompetence {
+    display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.competence {
+  background: linear-gradient(to bottom, transparent 55%, 
+  #6C61C4 50%);
+
+}
+
+
+.competenceContent {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  /* bottom: 5rem; */
+  max-width: 56.25rem; 
+  width: 100%;
+  height: 500px;
+  background-color: #1B1B27;
+}
+
+.competenceContent h4 {
+  width: 6rem;
+  font-size: 20px;
+}
+
+.competenceContentTitre{ 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 28px;
+}
+
+.html {
+  display: flex;
+  width: 70%;
+gap: 2rem;
+justify-content: center;
+align-items: center;
+height: 50px;
+}
+
+.css {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+}
+
+.js { 
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+  
+}
+
+.react { 
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+}
+
+.git { 
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+}
+
+.competenceSoft { 
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  position: relative;
+  bottom: 2rem;
+  max-width: 56.25rem;
+  width: 100%; 
+  height: 3rem;
+  background-color: #1B1B27;
+  font-size: 23px;
+}

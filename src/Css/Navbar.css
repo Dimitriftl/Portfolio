@@ -1,0 +1,70 @@
+.navbar{ 
+    display: flex;
+    width: 100%;
+    height: 5.2rem;
+    justify-content: center;
+    background-color: #232237;
+    /* aspect-ratio: 1/1; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbarContainer {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  height: 5.2rem;
+  background-color: #232237;
+  justify-content: space-between;
+}
+
+.navbarContainer img { 
+  display: none;
+}
+
+/* NAVBAR LEFT SIDE */
+
+.navbaLeftSide {
+  display: flex;
+  padding-left: 6rem;
+}
+
+.navbaLeftSideText {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbarDimitri {
+  position: relative;
+  top: 1.5rem;
+  font-size: 24px;
+}
+
+.navbarDev {
+    position: relative;
+    bottom: 1.5rem;
+  font-size: 20px;
+  color: #957fef;
+}
+
+/* NAVBAR RIGHT SIDE */
+
+.navbarRightSide {
+  display: flex;
+  float: right;
+  padding-right: 3rem;
+  flex-direction: row;
+}
+
+.navbarRightSide a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.navbarRightSide a:hover { 
+  color: #957fef;
+}
