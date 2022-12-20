@@ -19,7 +19,7 @@ const TopPage = () => {
             </h2>
           </div>
           <div className="topPageSecondText">
-            <h2>Et sur ce site je te montre mes projets persos.</h2>
+            <h2>Et sur ce site je te montre mes projets perso.</h2>
           </div>
         </div>
         <div className="topPagerightside">

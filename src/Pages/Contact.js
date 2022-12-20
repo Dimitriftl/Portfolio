@@ -55,14 +55,14 @@ const Contact = () => {
                   className="inputNom"
                   type="text"
                   name="name"
-                  placeholder="Nom, Prénom :"
+                  placeholder="Nom, Prénom"
                 />
                 <input
                   required
                   className="inputEmail"
                   type="email"
                   name="email"
-                  placeholder="Email :"
+                  placeholder="Email"
                 />
               </div>
 
@@ -72,14 +72,14 @@ const Contact = () => {
                   className="inputSujet"
                   type="text"
                   name="subject"
-                  placeholder="Sujet : "
+                  placeholder="Sujet"
                 />
               </div>
               <div className="message">
                 <textarea
                   required
                   nameName="inputMessage"
-                  placeholder="Message :"
+                  placeholder="Message"
                   name="message"
                 />
               </div>

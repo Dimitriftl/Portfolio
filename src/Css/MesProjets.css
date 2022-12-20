@@ -86,9 +86,15 @@
   /* padding: 0.5rem; */
 }
 
-.cardBackground {
+.cardBackground a {
   display: flex;
   justify-content: center;
+}
+
+
+.cardBackground {
+  display: flex;
+  /* justify-content: center; */
   position: relative;
   height: 14rem;
   width: 100%;
@@ -108,6 +114,10 @@
   position: absolute;
   top: 5rem;
   width: 50px;
+}
+
+.card a { 
+  width: 100%;
 }
 
 .backgroundImage {

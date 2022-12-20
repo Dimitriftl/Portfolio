@@ -60,7 +60,7 @@ const Navbar = ({
             href="#aboutId"
             onClick={() => {
               aboutSide();
-              toggleMenu();
+              setMenuBurgerOpen(false);
             }}
           >
             À propos
@@ -69,15 +69,15 @@ const Navbar = ({
             href="#aboutId"
             onClick={() => {
               competenceSide();
-              toggleMenu();
+              setMenuBurgerOpen(false);
             }}
           >
             Compétences
           </a>
-          <a href="#Projets" onClick={toggleMenu}>
+          <a href="#Projets" onClick={() => setMenuBurgerOpen(false)}>
             Projets
           </a>
-          <a href="#contact" onClick={toggleMenu}>
+          <a href="#contact" onClick={() => setMenuBurgerOpen(false)}>
             Contact
           </a>
         </div>

@@ -85,7 +85,7 @@
     }
 
     .card { 
-        height: 16rem;
+        height: 17rem;
         width: 100%;
     }
 
@@ -94,6 +94,10 @@
         width: 100%;
         margin: 0.5rem;
         border-radius: 20px 20px 0 0;
+      }
+
+      .eyeSvg {
+        top: 2rem;
       }
 
       .cardBottom {
