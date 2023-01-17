@@ -33,9 +33,9 @@ const Apropos = () => {
           </p>
 
           <p>
-            Concernant mon alternance, elle se déroulera via OpenClassroom pour
-            une durée de 1 an avec un rythme de 4 jours en entreprise et un jour
-            consacré à la formation la semaine.
+            Concernant mon alternance, elle se déroulera via 3W Academy pour
+            une durée de 1 an avec un rythme de 3 semaines en entreprise et 1 semaine
+            consacrée à la formation la semaine.
           </p>
         </div>
         <div className="secondSvg">
