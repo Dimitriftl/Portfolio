@@ -4,6 +4,7 @@ import "../Css/Css Responsive/MesProjetsResponsive.css";
 import pomodoroScreen from "../media/Pomodoro screen.PNG";
 import testTechniqueTest from "../media/Test technique screen.PNG";
 import bookiScreen from "../media/Booki screen.PNG";
+import Netflix from '../media/Netflix.jpg'
 import projetsBackground from "../media/stacked-peaks-haikei.svg";
 import EyeSvg from "../media/EyeSvg.svg";
 
@@ -117,18 +118,18 @@ const MesProjets = () => {
           <div className="cardContainer">
             <div className="CardTitle">
               <h3>
-                Maquette <span>Booki</span>
+                <span>NETFLIX</span>
               </h3>
             </div>
             <div className="card">
               <div className="cardBackground">
                 <a
                   target={"_blank"}
-                  href="https://benevolent-malabi-1789d3.netlify.app/"
+                  href="https://clone-netflix-zsyw.vercel.app/"
                 >
                   <img
                     className="backgroundImage"
-                    src={bookiScreen}
+                    src={Netflix}
                     alt="Capture d'écran Booki"
                   />
                   <img className="eyeSvg" src={EyeSvg} alt="oeil svg" />
@@ -136,6 +137,12 @@ const MesProjets = () => {
               </div>
               <div className="cardBottom">
                 <div className="pastilleContainer">
+                <div className="pastille">
+                    <p>React</p>
+                  </div>
+                  <div className="pastille">
+                    <p>JS</p>
+                  </div>
                   <div className="pastille">
                     <p>CSS</p>
                   </div>
@@ -145,8 +152,7 @@ const MesProjets = () => {
                 </div>
                 <div className="cardBottomText">
                   <p>
-                    premiers pas avec HTML/CSS. Développement d'une maquette
-                    responsive avec CSS et HTML. Projet OpenClassRooms.
+                    Reproduction du site Netflix avec React, tailwind et firebase. Authentification, sauvegarde de données.
                   </p>
                 </div>
               </div>
